@@ -103,3 +103,34 @@ if (myResult >80){
 else {
     console.log("go to home and sleep and act very sad i'm :( ");
 }
+
+
+/***
+you have two numbers in two variables, called: num1, num2
+now declare a variable called result. 
+if num1 is bigger than num2 then result will be double of num1. if not, then the value of the variable result will be the sum of num1 and num2.
+write a simple if-else. 
+also, write it using ternary operator.
+ */
+
+// simple if-else
+
+let num1 = 41;
+let num2 = 9;
+let result;
+if(num1 > num2) {
+    result = num1 * 2;
+}
+else{
+    result = num1 + num2;
+}
+
+console.log(result);
+
+// using ternary operation
+
+let number1 = 12;
+let number2 = 6;
+let ternaryResult = number1 > number2 ? number1 * 2 :  number1 + number2; 
+console.log(ternaryResult);
+
